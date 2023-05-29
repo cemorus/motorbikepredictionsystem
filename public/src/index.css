@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Raleway&family=Rammetto+One&display=swap');
+
+* {
+  font-family: Raleway, sans-serif;
+}
+
+body {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+.header-text {
+  color: #606080;
+  font-weight: 500;
+  margin-top: 7px;
+  font-size: 17px;
+}
+
+a.navbar-brand h2 {
+  font-size: 22px;
+    font-weight: bolder;
+    color: #4993FA;
+    font-family: Rammetto One, cursive;
+}
+/* .card {
+  box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px !important;
+}
+.card:hover {
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px !important;
+} */
+
+.bikes-card {
+  box-shadow: rgba(100, 100, 111, 0.15) 0px 7px 29px 0px !important;
+
+}
+.bikes-sectionss:hover {
+  box-shadow: rgba(100, 100, 111, 0.6) 0px 7px 29px 0px !important;
+  border-radius: 5px;
+}
+
+.card-between {
+  padding-top:6%;
+  padding-bottom:6%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-between p {
+  height: 30px;
+  background-color: #c0f2c1;
+  width: 120px;
+  border-radius: 15px;
+  padding-top: 1%;
+ 
+}
+.card-between p.location {
+  height: 30px;
+  background-color: #f59898;
+  width: 120px;
+  border-radius: 15px;
+  
+}
+
+.card-text a{
+  height: 40px !important;
+  border: 1px solid #c0f2c1;
+  padding : 3%;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.card-text a:hover {
+  color: #040404;
+  background-color: #dfdee0;
+}
+
+.single-image {
+  margin-top: 40%;
+}
+
+.single-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.single-content {
+  margin-top: 20%;
+  text-align: left;
+  font-weight: bold;
+  color: #040404;
+}
+.single-content p {
+  text-align: justify;
+  margin-top: 2%;
+}
+
+.price {
+  display: flex;
+  gap: 60px;
+  float: left;
+}
+.price p{
+  height: 45px;
+  width:160px;
+
+  padding-left: 10%;
+  padding-top: 2.5%;
+  background-color: #c0f2c1;
+  border-radius: 5px;
+}
+.price p.location {
+  height: 45px;
+  width:150px;
+  border-radius: 5px;
+  background-color: #f59898;
+}
+.contact-seller {
+  text-align: center;
+  margin-top: 5%;
+  color: #ffff;
+  margin-bottom: 5%;
+}
+
+.contact-seller button {
+  height: 50px;
+  width: 200px;
+  border-radius: 8px;
+  background-color: #4993FA;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  color: #ffff;
+}
+.contact-seller button:hover {
+  background-color: #040404;
+}
+
+.search {
+  margin-top: 6%;
+}
+
+.image-upload input  {
+  border: none !important;
+}
+
+input[type=file]::file-selector-button {
+  padding: .2em .4em;
+  border-radius: .2em;
+  transition: 1s;
+  background-color: rgba(69, 168, 255, 0.8);
+  border: none;
+  width: 150px;
+  color: black !important;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #4993FA;;
+}
+label.form-label {
+  float: left;
+  color: #040404;
+}
+
+h5.add-update {
+  color: #040404;
+  font-weight: bold;
+  margin-top:4%;
+}
+.addbike {
+  background: linear-gradient(
+    rgba(30, 30, 30, 0.5),
+    rgba(31, 31, 31, 0.5)
+  ), url("./pictures/collection.webp");
+background-attachment: fixed;
+background-size: 100% 100vh;
+background-position: fixed;
+background-repeat: no-repeat;
+object-fit: cover;
+margin-top: -1.3%;
+margin-bottom: 0 auto;
+}
+.addbike .container {
+  margin-top: 10%;
+  opacity: 0.8;
+}
+
+.addbike .container:hover {
+  opacity: 0.9;
+}
+@media (max-width: 1000px) {
+  .single-image img {
+    width: 350px;
+  }
+}

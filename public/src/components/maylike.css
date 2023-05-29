@@ -1,0 +1,43 @@
+.maylike-top {
+    margin-top: 5%;
+    
+    padding-bottom: 2% !important;
+
+   
+}
+.maylike-top h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 1%;
+    padding-left: 2%;
+}
+
+
+.describe {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-between-may {
+    padding-top:3%;
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-between-may p {
+    height: 30px;
+    background-color: #c0f2c1;
+    width: 120px;
+    border-radius: 15px;
+    padding-top: 1%;
+   
+  }
+  .card-between-may p.location-may {
+    height: 30px;
+    background-color: #f59898;
+    width: 120px;
+    border-radius: 15px;
+    
+  }

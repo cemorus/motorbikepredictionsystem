@@ -1,0 +1,95 @@
+.predict-body {
+    margin-bottom: 30px;
+}
+.predict-head {
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.predict-head h2 {
+    font-size: 40px;
+}
+.predict-head h6 {
+    margin-top: 5%;
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+.select-options {
+    margin-top: 6%;
+    text-align: left;
+}
+.select-options label {
+    padding-right: 30px;
+}
+.select-options select {
+    height: 40px;
+    width: 40%;
+}
+.textfield {
+    text-align: center;
+}
+.textfield input {
+    height: 50px;
+    width: 90%;
+}
+.model{
+    height:40vh;
+    width: 60vh;
+    border-radius: 10px;
+    
+}
+
+.model .model-btn button{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: fit-content;
+    width: fit-content;
+   margin-left: 75%;
+   margin-top: 5px;
+   height: 47px;
+    width: 108px;
+}
+.model .model-btn button:hover{
+    color: red!important;
+    background-color: #0000;
+   
+}
+h1.predicted-price {
+    font-size: 20px;
+    text-align: center;
+}
+
+h1.predicted-price span {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30% !important;
+}
+.buttons-predict {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.buttons-predict button {
+    height: 50px;
+    width: 300px;
+    background-color: #4993FA;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 5%;
+}
+.buttons-predict button.clear {
+    background-color: #EB5F52;
+}
+.buttons-predict button:hover {
+    background-color: #101011 !important;
+    color: #ffff !important;
+}
+.buttons-predict button.clear:hover {
+    background-color: #e98181 !important;
+    color: #ffff !important;
+
+}

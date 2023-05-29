@@ -1,0 +1,71 @@
+.login  {
+    margin-top: 10%;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.login h3{
+    margin-top: 2%;
+    font-size: 29px;
+    padding-left: 7%;
+    font-weight: bolder;
+    font-family: Raleway !important;
+}
+.login p{
+    font-size: 20px;
+    margin: 0 auto;
+}
+.login-card {
+    text-align: left;
+}
+.card {
+    box-shadow: none !important;
+}
+.text-field{
+    background-color: #F8FAFC !important;
+    width: 50% !important;
+    border: none !important;
+}
+.text-field input {
+    margin-top: 2%;
+    height: 40px;
+}
+.button-login {
+    margin-top: 5%;
+    width: 120px;
+    height: 45px;
+    background-color: #4993FA !important;
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.button-login:hover {
+    background-color: #000000 !important;
+    color: #ffff;
+}
+.signup-link p span{
+    color: #4993FA;
+}
+.signup-link p span:hover {
+    color: #ff0000;
+}
+.right-login {
+    margin: 0 auto;
+    margin-top: -10%;
+}
+.right-login img {
+    height: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .login {
+        margin-top: 20%;
+    }
+    .text-field {
+        width: 90% !important;
+    }
+    .right-login {
+        text-align: center;
+    }
+    .right-login {
+        margin-top: 4%;
+    }
+    
+}

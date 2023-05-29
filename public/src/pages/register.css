@@ -1,0 +1,65 @@
+.register {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.register h3 {
+    margin-top: 2%;
+    font-size: 29px;
+    padding-left: 7%;
+    font-weight: bolder;
+    font-family: Raleway !important;
+}
+
+.register p {
+    font-size: 20px;
+    margin: 0 auto;
+}
+.login-card {
+    text-align: left;
+}
+.register-field {
+    margin-top: 1%;
+    background-color: #F8FAFC !important;
+    width: 50% !important;
+    border: none !important;
+}
+.button-register {
+    margin-top: 5%;
+    width: 150px;
+    height: 45px;
+    background-color: #4993FA !important;
+    font-size: 16px !important;
+    font-weight: 700;
+}
+.button-register:hover {
+    background-color: #000000 !important;
+    color: #ffff;
+}
+.signin-link {
+    margin-top: 5%;
+}
+.signin-link span {
+    color: #4993FA;
+}
+.signin-link span:hover {
+    color: #ff0000;
+}
+.register-image {
+    margin: 0 auto;
+    margin-top: -10%;
+    text-align: center;
+}
+@media screen and (max-width: 1000px) {
+    .register {
+        margin-top: 20%;
+    }
+    .register-field {
+        width: 90% !important;
+    }
+    .button-register {
+        width: 150px;
+    }
+    .register-image {
+        margin-top: 3%;
+    }
+}

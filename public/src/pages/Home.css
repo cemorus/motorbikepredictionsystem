@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&family=Raleway&family=Rammetto+One&display=swap');
+ * p, h4, h5{
+    color: #000000;
+ }
+
+.home .home-left-section {
+    float: left;
+    margin-top: 200px;
+}
+.home .home-left-section h4 {
+    font-family: Raleway, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.home .home-left-section p {
+    margin-top: 3%;
+    width: 90%;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.home .home-left-section button {
+    margin-top: 3%;
+    height:50px;
+    width: 180px;
+    background-color: #4993FA;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.home .home-left-section button:hover {
+    background-color: #101011 !important;
+    color: #ffff !important;
+}
+.home-img {
+    text-align: center;
+}
+.home-img img{
+    height: 500px;
+    margin-top: 120px;
+   
+}
+.play {
+   margin-top:6% !important;
+   padding-left: 2% !important;
+   text-align: left;
+}
+.play p{
+    padding-left: 5% !important;
+    text-align: left;
+}
+
+.play-store {
+    display: flex;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 2px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 250px !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.play-store .play-main-section {
+    justify-content: center;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.play-store .play-main-section .icon {
+  text-align: center;
+}
+
+.bikes-section {
+    margin-top: 5% !important;
+    text-align: center;
+}
+.trending {
+    text-align: center;
+}
+
+.trending p{
+   font-size: 23px;
+   font-weight: bold;
+}
+.sort {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sort p {
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.bikes_drop {
+    margin-left: 3% !important;
+     height: 35px;
+     border: none !important;
+     border-radius: 6px;
+     background-color: #e3e5e7;
+     margin-bottom: 15px !important;
+     width: 130px !important;
+}
+
+.bikes-hr {
+    height: 2px !important;
+    background-color: #000000;
+}
+
+.third-para {
+    margin-top: 5% !important;
+    text-align: left;
+    margin-left: 1% !important;
+}
+.third-para p {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+ 
+.third-section {
+    margin-top: 2% !important;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: auto !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px !important;
+    
+}
+.third-section img{
+    height: 200px;
+    width: 100% !important;
+    border-radius: 15px !important;    
+}
+.third-section img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+._2hdkJ img{
+    border-radius: 5px !important;
+}
+
+.overlay {
+    border-radius: 15px !important;
+}
+
+._3qw0K {
+    border-radius: 5px !important;
+    background-color: rgba(0, 0, 0, 0.7) !important;
+    
+}
+._3qw0K h2 {
+    color: #ffff !important;
+}
+
+.women-image {
+  margin-top: 6%;
+}
+.women-image img {
+    width: 100%;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+  .home .home-left-section {
+    margin-top: 25%;
+  }
+  .play-store {
+    margin-top: 3%;
+    text-align: center;
+  }
+  .play-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+  }
+  .play {
+    margin-top: 2% !important;
+  }
+  .play h4 {
+    margin-top: 10%;
+  }
+}

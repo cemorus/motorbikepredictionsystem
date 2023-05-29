@@ -1,0 +1,89 @@
+a.navbar-brand {
+    margin-top: 7px;
+    font-family: Rammetto One, cursive !important;
+  font-size: 900;
+}
+  
+a.navbar-brand h2:hover {
+    color:#101011 !important;
+}
+a.nav-link {
+    margin-left: 50px !important;
+}
+a.nav-link p{
+    display: flex;
+    color: #101011 !important;
+    font-size: 18px !important;
+}
+
+ .btn-predict {
+
+    /* margin-top: 10px;
+    text-align: center;
+    background-color: #101011 !important;
+    width: 150px !important;
+    height: 40px !important; */
+    margin-top: 3%;
+    height:45px;
+    width: 180px;
+    background-color: #4993FA;
+    border-radius: 5px;
+    border: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+}
+.btn-predict p.header-text{
+   
+    color: #ffff;
+    font-weight: bold;
+    font-size: 18px !important;
+ 
+}
+.btn-predict:hover {
+    background-color: #101011 !important;
+    color: #ffff !important;
+}
+
+.btn-predict p.header-text{
+    margin: 0;
+    margin-top: .5%;
+    padding: 0;
+    padding-left: 18%;
+    color: rgb(255, 255, 255) !important;
+    font-family: 900;
+    font-size: 22px;
+    font-family: Raleway, sans-serif;
+}
+
+
+
+button.navbar-toggler {
+    background-color: #101011 !important;
+}
+
+.user-id {
+    margin-top: 10px;
+    margin-left: 30% !important;
+    text-align: center;
+    background-color: #ceced4 !important;
+    width: 100px !important;
+    height: 40px !important;
+    color: #101011 !important;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .user-id {
+        margin-top: 30px;
+       
+        text-align: center;
+        background-color: #93939a !important;
+        width: 100px !important;
+        height: 40px !important;
+        color: #101011 !important;
+    }
+}
+
